@@ -1,0 +1,41 @@
+data set: avazu-app-5000, C = 1, trees = 10
+average wall time of gbtree model: 0.00104797 ms
+average wall time of adaqs model: 0.000386031 ms
+average wall time of plain qs model: 0.020088 ms
+average wall time of xgboost predictor: 0.0200775 ms
+
+data set: avazu-app-5000, C = 1, trees = 50
+average wall time of gbtree model: 0.00575637 ms
+average wall time of adaqs model: 0.000665116 ms
+average wall time of plain qs model: 0.0629062 ms
+average wall time of xgboost predictor: 0.0629046 ms
+
+data set: avazu-app-5000, C = 1, trees = 100
+average wall time of gbtree model: 0.0119725 ms
+average wall time of adaqs model: 0.00101702 ms
+average wall time of plain qs model: 0.121875 ms
+average wall time of xgboost predictor: 0.121291 ms
+
+data set: avazu-app-5000, C = 1, trees = 500
+average wall time of gbtree model: 0.0690897 ms
+average wall time of adaqs model: 0.00368209 ms
+average wall time of plain qs model: 0.655184 ms
+average wall time of xgboost predictor: 0.641165 ms
+
+data set: avazu-app-5000, C = 1, trees = 1000
+average wall time of gbtree model: 0.144676 ms
+average wall time of adaqs model: 0.00681473 ms
+average wall time of plain qs model: 1.15541 ms
+average wall time of xgboost predictor: 1.22905 ms
+
+data set: avazu-app-5000, C = 1, trees = 2000
+average wall time of gbtree model: 0.532168 ms
+average wall time of adaqs model: 0.0126754 ms
+average wall time of plain qs model: 2.82585 ms
+average wall time of xgboost predictor: 2.34709 ms
+
+data set: avazu-app-5000, C = 1, trees = 5000
+average wall time of gbtree model: 1.53553 ms
+average wall time of adaqs model: 0.0331735 ms
+average wall time of plain qs model: 6.67661 ms
+average wall time of xgboost predictor: 5.67347 ms

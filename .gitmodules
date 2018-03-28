@@ -1,0 +1,6 @@
+[submodule "googletest"]
+	path = externals/googletest
+	url = https://github.com/google/googletest.git
+[submodule "spdlog"]
+	path = externals/spdlog
+	url = https://github.com/gabime/spdlog.git
