@@ -6,8 +6,10 @@
 #define QUICKSCORER_QS_MODEL_BLOCK_H
 
 #include "conf/config.h"
-#include <Eigen/Sparse>
+#include <spdlog/spdlog.h>
+#include <eigen3/Eigen/Sparse>
 #include <vector>
+#include <memory>
 
 using namespace std;
 

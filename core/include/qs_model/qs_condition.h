@@ -6,15 +6,16 @@
 #define QUICKSCORER_QS_CONTENT_H
 
 #include <sparsehash/dense_hash_map>
+#include "conf/config.h"
 
 namespace quickscorer {
 
     class QSConditions {
     public:
-        vector<float> _thresholds;
-        vector<uint32_t> _tree_ids;
-        vector<BANDWITH_TYPE> _bitvectors;
-        google::dense_hash_map<uint64_t, pair<uint32_t, uint32_t>> _offsets;
+        std::vector<float> _thresholds;
+        std::vector<uint32_t> _tree_ids;
+        std::vector<BANDWITH_TYPE> _bitvectors;
+        google::dense_hash_map<uint64_t, std::pair<uint32_t, uint32_t>> _offsets;
 
         QSConditions() {
             _offsets.set_empty_key(std::numeric_limits<uint64_t>::max());

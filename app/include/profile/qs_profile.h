@@ -6,7 +6,7 @@
 #define QUICKSCORER_QS_PROFILE_H
 
 #include <string>
-#include <Eigen/Sparse>
+#include <eigen3/Eigen/Sparse>
 #include <memory>
 
 using namespace std;

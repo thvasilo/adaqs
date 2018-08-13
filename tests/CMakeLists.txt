@@ -2,7 +2,7 @@
 include_directories(${PROJECT_SOURCE_DIR}/core/include)
 
 include_directories(${PROJECT_SOURCE_DIR}/externals/spdlog/include)
-include_directories(${PROJECT_SOURCE_DIR}/externals/googletest/googletest/include)
+#include_directories(${PROJECT_SOURCE_DIR}/externals/googletest/googletest/include)
 include_directories(${PROJECT_SOURCE_DIR}/externals/dmlc/include)
 include_directories(${PROJECT_SOURCE_DIR}/externals/xgboost-predictor/include)
 include_directories(${PROJECT_SOURCE_DIR}/externals)

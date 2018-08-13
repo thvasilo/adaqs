@@ -5,7 +5,7 @@
 #ifndef QUICKSCORER_ADAQS_MODEL_BLOCK_H
 #define QUICKSCORER_ADAQS_MODEL_BLOCK_H
 
-#include <Eigen/Sparse>
+#include <eigen3/Eigen/Sparse>
 #include <gbtree_model/gbtree_model.h>
 #include "qs_model_block.h"
 #include "qs_node.h"

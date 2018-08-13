@@ -6,7 +6,7 @@
 #define QUICKSCORER_NONLEAF_NODE_H
 
 #include "tree_node.h"
-#include <Eigen/Sparse>
+#include <eigen3/Eigen/Sparse>
 
 namespace quickscorer {
 

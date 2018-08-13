@@ -6,7 +6,7 @@
 #define QUICKSCORER_TREE_NODE_H
 
 #include <memory>
-#include <Eigen/Sparse>
+#include <eigen3/Eigen/Sparse>
 #include "conf/config.h"
 
 using namespace std;

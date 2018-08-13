@@ -1,7 +1,7 @@
 #ifndef XGBOOST_FVEC_H_
 #define XGBOOST_FVEC_H_
 
-#include <Eigen/Sparse>
+#include <eigen3/Eigen/Sparse>
 
 /*!
  * \brief dense feature vector that can be taken by RegTree
